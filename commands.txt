@@ -1,0 +1,13 @@
+npm init (keep enter for same details)
+npm install express (do always in project level)(since no intepretor) ==> node_modules folder created
+npm install nodemon
+
+folders created - models , services, controller, config, routes, DB
+enviroments- development(nodemon) , production(use node server)
+
+controllers - first layer of apis , then goes to services
+services = buisness logic , it calls the db where exact squeries will execute
+utils => converter, formatter, format changer, reusable things
+routes => api related
+
+create server.js, app.js, 
