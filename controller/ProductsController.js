@@ -1,4 +1,4 @@
-const Products = require("./../services/ProductsService");
+const Products = require("../services/ProductsService");
 function ProductsController() {
   const listProducts = function(req, res) {
     Products.list().then(data => res.json(data));
