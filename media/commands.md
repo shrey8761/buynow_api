@@ -16,3 +16,5 @@ create server.js, app.js,
 ==> routes, controller, services, models, 
 ![](2022-07-16-02-28-52.png)
 ![](2022-07-16-02-33-15.png)
+commit -amend 
+git log -p --reverse
